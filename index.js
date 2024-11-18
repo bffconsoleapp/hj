@@ -8,7 +8,7 @@ import { ApolloServer } from 'apollo-server-express'; // Import from apollo-serv
 
 // Import GraphQL type definitions and resolvers
 import demotypeDefs from './graphql/demo.js' // Import GraphQL type definitions
-import demoresolver from './graphql/demoresolver.js'; // Import GraphQL resolvers
+import demoresolver from './graphql/hjResolver.js'; // Import GraphQL resolvers
 
 const app = express();
 app.use(express.json());
